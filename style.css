@@ -43,6 +43,7 @@
         font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
         color:black;
         background-color: skyblue;
+        font-weight: bold;
     }
     .about-me h2,
     .work h2,
@@ -50,6 +51,7 @@
         margin-bottom: 20px;
         font-size: 36px;
         background-color: skyblue;
+        font-weight: bold;
     }
 
 .section img {
