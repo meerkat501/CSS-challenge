@@ -1,73 +1,101 @@
-.body {
+body, header, nav, main, h1, div, img, ul, p,
+section, article{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+body{
+    background-color: #0cb4d1;
+}
+
+
+header {
+    background-color: #bce7f1;
+    font-size: 20px;
+}
+
+nav {
     background-color: skyblue;
-    }
-    .header {
-        background-color: darkblue;
-        color: black;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 10px 50px;
-        margin: auto;
-    }
-    .header h1 {
-        display: inline-block;
-        font-size: 48px;
-        margin: 0;
-    }
-    .header div {
-        padding-top: 15px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 20px;
-    }
-    .header div ul {
-        list-style-type: none;
-        padding: 0;
-    }
-    .header div ul li {
-        display: inline-block;
-        margin-left: 25px;
-    }
-    .content {
-        width: 70%;
-        display: inline-block;
-        margin-left: 20px;
-        padding-top: 20px;
-    
-    }
-    .about-me,
-    .work,
-    .contact-me {
-        margin-bottom: 40px;
-        padding: 20px;
-        font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
-        color:black;
-        background-color: skyblue;
-        font-weight: bold;
-    }
-    .about-me h2,
-    .work h2,
-    .contact-me h2 {
-        margin-bottom: 20px;
-        font-size: 36px;
-        background-color: skyblue;
-        font-weight: bold;
-    }
-
-.section img {
-    width: 50%;
-
+    padding: 60px;
 }
 
-.section p {
-    justify-content: space-between;
+#name h1{
+    float: left;
     display: flex;
-   margin: auto;
-   padding: auto;
+    background-color: #18222c;
+    color: whitesmoke;
+    padding: 20px;
+    margin: 10px;
+}
 
+nav ul{
+    float: right;
+    margin: -10px;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+nav li a {
+    list-style-type: none;   
+    color: #18222c;
+}
+
+#pHeader{
+    position: relative;
+}
+
+#pHeader img {
+    width: 100%;
+    max-height: auto;
+}
+
+#pHeader figcaption {
+    position: absolute;
+    right: 0;
+    bottom: 50px;
+    background-color: #18222c;
+    color: burlywood;
+    padding: 40px;
+    font-size: 40px;
+    margin: 20px;
 }
 
 
+#aboutMe, #work, #contactMe, #resume, h3 {
+    font-size: 70px;
+    font-weight: bold;
+    border-right: 5px solid black;
+    
+    color: black;
+    margin-right: 10px;
+    margin-left: 20px;
+    padding-right: 10px;
+}
+
+#aboutMe, #work, #contactMe, #resume, p{
+    font-size: 25px;
+    margin: 10px;
+    width: 1700px;
+    border-style: none;
+    
+}
+
+#aboutMe, #work, #contactMe, #resume, p, h3{
+    display: inline-block;
+
+}
+
+#work img{
+    width: 80%;
+
+}
 
 
 
